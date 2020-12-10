@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    'myapi',                    # My REST API
+    'rest_framework',           # REST Framework app
     'store',
 ]
 
