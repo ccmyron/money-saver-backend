@@ -1,0 +1,994 @@
+{
+    "Pandashop": [
+        {
+            "name": "Apple iPhone SE 2020 128Gb Black",
+            "price": "11018",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung SM-G973 Galaxy S10 8Gb/128Gb EU Black",
+            "price": "11070",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Xiaomi Mi 10 8Gb/128Gb Twilight Grey",
+            "price": "11499",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Nokia 230 Duos Dark Silver",
+            "price": "1175",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Nokia 3310 Duos Grey",
+            "price": "1175",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Maxcom MM751",
+            "price": "1199",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Philips E182 Blue",
+            "price": "1229",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Philips E255 DS Black",
+            "price": "1229",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Philips E255 Blue",
+            "price": "1229",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Philips E255 White",
+            "price": "1229",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Maxcom MM721BB Black",
+            "price": "1249",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Maxcom MM36D",
+            "price": "1249",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Maxcom MM920 Black",
+            "price": "1249",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Oppo Reno 3 Pro 12Gb/256Gb Blue",
+            "price": "12688",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung SM-G973 Galaxy S10 8Gb/128Gb Prism Red",
+            "price": "12799",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung G780 S20fe 6/128Gb Cloud Mint",
+            "price": "12799",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung G780 S20fe 6/128Gb Cloud Lavender",
+            "price": "12799",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung G780 S20fe 6/128Gb Cloud Navy",
+            "price": "12799",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung G780 S20fe 6/128Gb Cloud White",
+            "price": "12799",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung G780 S20fe 6/128Gb Cloud Red",
+            "price": "12799",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung G780 S20fe 6/128Gb Cloud Orange",
+            "price": "12799",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung SM-G975 Galaxy S10+ 8Gb/128Gb Black",
+            "price": "13799",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung SM-G975 Galaxy S10+ 8Gb/128Gb Prism Green",
+            "price": "13799",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung SM-G975 Galaxy S10+ 8Gb/128Gb White",
+            "price": "13799",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung SM-G975 Galaxy S10 + 8Gb/128Gb Cardinal Red",
+            "price": "13799",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "OnePlus 8 12/256GB Green",
+            "price": "13999",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "OnePlus 8 12/256GB Black",
+            "price": "13999",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Maxcom MK241",
+            "price": "1449",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Maxcom MM917",
+            "price": "1499",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Apple iPhone 11 64Gb Black",
+            "price": "15091",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Apple iPhone 11 64Gb Green",
+            "price": "15091",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Oppo Reno 4 Pro 12Gb/256Gb Black",
+            "price": "15720",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Oppo Reno 4 Pro 12Gb/256Gb",
+            "price": "15720",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Apple iPhone 11 128Gb Black",
+            "price": "16091",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung SM-G980 Galaxy S20 8Gb/128Gb Cloud Blue",
+            "price": "16399",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung SM-G980 Galaxy S20 8Gb/128Gb Cosmic Gray",
+            "price": "16399",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung SM-G980 Galaxy S20 8Gb/128Gb Aura Red",
+            "price": "16399",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Apple iPhone 11 128Gb Green",
+            "price": "16727",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Apple iPhone 11 128Gb Purple",
+            "price": "16727",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Oppo Find X2 12Gb/256Gb Black",
+            "price": "17214",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Vonino Zun N 4G Dark Grey",
+            "price": "1731",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung SM-A013 Galaxy A01 Core 1GB/16Gb Black",
+            "price": "1738",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Philips E580 Black",
+            "price": "1742",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung SM-G985 Galaxy S20+ 8Gb/128Gb Cosmic Black",
+            "price": "17999",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung SM-G985 Galaxy S20+ 8Gb/128Gb Cosmic Gray",
+            "price": "17999",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung SM-G985 Galaxy S20+ 8Gb/128Gb Aura Red",
+            "price": "17999",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung Galaxy N980 Note20 8/256 Mystic Bronze",
+            "price": "18799",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung Galaxy N980 Note20/256 Green",
+            "price": "18799",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Apple iPhone 11 Pro 64Gb Space Grey",
+            "price": "20909",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Apple iPhone 11 Pro 64Gb Gold",
+            "price": "20909",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Apple iPhone 11 Pro 64Gb Silver",
+            "price": "21273",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Apple iPhone 11 Pro 64Gb Midnight Green",
+            "price": "21273",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung SM-A015 Galaxy A01 Blue",
+            "price": "2199",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung SM-A015 Galaxy A01 Black",
+            "price": "2216",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung SM-A015 Galaxy A01 Red",
+            "price": "2216",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Philips S561 Black",
+            "price": "2255",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung SM-G988 Galaxy S20 Ultra 12Gb/128Gb Cosmic Black",
+            "price": "22799",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung SM-G988 Galaxy S20 Ultra 12Gb/128Gb Cosmic Gray",
+            "price": "22799",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Xiaomi Redmi 9A 2Gb/32Gb Sky Blue",
+            "price": "2389",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung Galaxy N985 Note20 Ultra 8/256 Mystic Black",
+            "price": "23899",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung Galaxy N985 Note20 Ultra 8/256 Mystic White",
+            "price": "23899",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung Galaxy N985 Note20 Ultra 8/256 Mystic Bronze",
+            "price": "23899",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Apple iPhone 11 Pro 256Gb Gold",
+            "price": "23945",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Oppo A12 3Gb/32Gb Black",
+            "price": "2499",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Oppo A12 3Gb/32Gb Blue",
+            "price": "2499",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Apple iPhone 11 Pro Max Dual Sim 64Gb Silver",
+            "price": "25182",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung SM-A107 Galaxy A10s Blue",
+            "price": "2569",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Apple iPhone 11 Pro Dual Sim 64Gb Silver",
+            "price": "26363",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung SM-A107 Galaxy A10s Black",
+            "price": "2699",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung SM-A107 Galaxy A10s Red",
+            "price": "2699",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Xiaomi Redmi 9C 3Gb/64Gb Blue",
+            "price": "2749",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Xiaomi Redmi 9A 2Gb/32Gb Ocean Green",
+            "price": "2765",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Xiaomi Redmi 9 3Gb/32Gb Ocean Green",
+            "price": "2769",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Xiaomi Redmi 9 3Gb/32Gb Carbon Grey",
+            "price": "2799",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Xiaomi Redmi 9 3Gb/32Gb Sunset Purple",
+            "price": "2822",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Oppo A12 4Gb/64Gb Black",
+            "price": "2899",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Oppo A12 4Gb/64Gb Blue",
+            "price": "2899",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Xiaomi Redmi 9C 3Gb/64Gb Grey",
+            "price": "2916",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Ergo F188 Play Black",
+            "price": "299",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Xiaomi Redmi 9C 3Gb/64Gb Orange",
+            "price": "3010",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung SM-A115 Galaxy A11 2Gb/32Gb Black",
+            "price": "3049",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung SM-A115 Galaxy A11 2Gb/32Gb Red",
+            "price": "3049",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Huawei Y6P 3Gb/64Gb Phantom Purple",
+            "price": "3085",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Huawei Y6P 3Gb/64Gb Emerald Green",
+            "price": "3085",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Huawei P40 Lite 4Gb/64Gb Midnight Black",
+            "price": "3160",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Oppo A31 4Gb/64Gb Black",
+            "price": "3249",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Oppo A31 4Gb/64Gb Green",
+            "price": "3249",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung Galaxy M11 3Gb/32Gb Black",
+            "price": "3291",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Xiaomi Redmi Note 9 3Gb/64Gb Forest Green",
+            "price": "3299",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Xiaomi Redmi Note 9 3Gb/64Gb Black",
+            "price": "3299",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Xiaomi Redmi 9 4Gb/64Gb Sunset Purple",
+            "price": "3386",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Xiaomi Redmi 9 4Gb/64Gb Ocean Green",
+            "price": "3386",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Xiaomi Redmi 9 4Gb/64Gb Carbon Grey",
+            "price": "3480",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Apple iPhone 12 Pro Max 128Gb Silver",
+            "price": "35454",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Apple iPhone 12 Pro Max 128Gb Graphite",
+            "price": "35454",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Xiaomi Redmi Note 9 3Gb/64Gb Midnight Grey",
+            "price": "3662",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Xiaomi Redmi Note 9 3Gb/64Gb Polar White",
+            "price": "3662",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Xiaomi Redmi Note 8T 4Gb/64Gb Moonshadow Grey",
+            "price": "3668",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Xiaomi Redmi Note 8T 4Gb/64Gb Starscape Blue",
+            "price": "3668",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Realme 5 4Gb/128Gb Crystal Blue",
+            "price": "3702",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung SM-A217 Galaxy A21s 3Gb/32Gb Black",
+            "price": "3749",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung SM-A217 Galaxy A21s 3Gb/32Gb White",
+            "price": "3749",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Vonino Nono 33 Duos Dark Blue",
+            "price": "378",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Vonino Nono 33 Duos Grey",
+            "price": "378",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Ergo F186 Solace Black",
+            "price": "379",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Apple iPhone 12 Pro Max 256Gb Graphite",
+            "price": "38181",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Apple iPhone 12 Pro Max 256Gb Silver",
+            "price": "38181",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Xiaomi Redmi Note 9S 4Gb/64Gb Interstellar Grey",
+            "price": "3949",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Xiaomi Redmi Note 9S 4Gb/64Gb Aurora Blue",
+            "price": "3949",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Xiaomi Redmi Note 9S 4Gb/64Gb Glacier White",
+            "price": "3949",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung Galaxy F916 Z Fold 2 12Gb/256Gb Black",
+            "price": "39899",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Oppo A9 4Gb/128Gb Purple",
+            "price": "3999",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Xiaomi Redmi Note 9 4Gb/128Gb Black",
+            "price": "4019",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Xiaomi Redmi Note 8 Pro 6Gb/64Gb Forest Green",
+            "price": "4049",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Xiaomi Redmi Note 8 Pro 6Gb/64Gb Ocean Blue",
+            "price": "4049",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Vonino Nono C 2G Black Blue",
+            "price": "405",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Vonino Nono C 2G Blue/Yellow",
+            "price": "405",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Nokia 105 (2019) Duos Black",
+            "price": "411",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Nokia 105 (2019) Duos Blue",
+            "price": "411",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Xiaomi Redmi Note 8 Pro 6Gb/64Gb Mineral Gray",
+            "price": "4326",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Xiaomi Redmi Note 8 Pro 6Gb/128Gb Mineral Gray",
+            "price": "4399",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung SM-A315 Galaxy A31 4Gb/64Gb Prism Crush Blue",
+            "price": "4499",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung SM-A315 Galaxy A31 4Gb/64Gb Prism Crush Black",
+            "price": "4499",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung SM-A315 Galaxy A31 4Gb/64Gb Prism Crush Red",
+            "price": "4499",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Xiaomi Redmi Note 8 Pro 6Gb/64Gb Pearl White",
+            "price": "4514",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Xiaomi Redmi Note 9S 6Gb/128Gb Aurora Blue",
+            "price": "4699",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Xiaomi Redmi Note 9S 6Gb/128Gb Glacier White",
+            "price": "4699",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung SM-A415 Galaxy A41 4Gb/64Gb Prism Crush Blue",
+            "price": "4699",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung SM-A415 Galaxy A41 4Gb/64Gb Prism Crush Black",
+            "price": "4699",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Xiaomi Redmi Note 9 Pro 6Gb/64Gb Interstellar Grey",
+            "price": "4889",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Xiaomi Redmi Note 9 Pro 6Gb/64Gb Tropical Green",
+            "price": "4889",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Xiaomi Redmi Note 9 Pro 6Gb/64Gb Glacier White",
+            "price": "4889",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Xiaomi Redmi Note 8 Pro 6Gb/128Gb Forest Green",
+            "price": "4966",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Xiaomi Redmi Note 8 Pro 6Gb/128Gb Pearl White",
+            "price": "4966",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Xiaomi Redmi Note 8 Pro 6Gb/128Gb Ocean Blue",
+            "price": "4966",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Huawei P40 Lite 6Gb/128Gb Midnight Black",
+            "price": "4966",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Xiaomi Redmi Note 9S 6Gb/128Gb Interstellar Grey",
+            "price": "4985",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Maxcom MM134 Black",
+            "price": "499",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Maxcom MM142 Black",
+            "price": "499",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung SM-A315 Galaxy A31 4Gb/128Gb Prism Crush Blue",
+            "price": "4999",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung SM-A315 Galaxy A31 4Gb/128Gb Prism Crush Black",
+            "price": "4999",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung SM-A315 Galaxy A31 4Gb/128Gb Prism Crush White",
+            "price": "4999",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Maxcom MM818 Black",
+            "price": "500",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Maxcom MM428BB Black/Red",
+            "price": "502",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung SM-A415 Galaxy A41 4Gb/64Gb Prism Crush White",
+            "price": "5049",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung SM-A415 Galaxy A41 4Gb/64Gb Prism Crush Red",
+            "price": "5049",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Huawei P30 Lite 4Gb/128Gb Peacock Blue",
+            "price": "5229",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Huawei P30 Lite 4Gb/128Gb Midnight Black",
+            "price": "5229",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Huawei P30 Lite 4Gb/128Gb Pearl White",
+            "price": "5361",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung SM-A515 Galaxy A51 4Gb/64Gb Silver",
+            "price": "5369",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Nokia 110 Dual Sim Black",
+            "price": "539",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung SM-A515 Galaxy A51 4Gb/64Gb Blue",
+            "price": "5399",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung SM-A515 Galaxy A51 4Gb/64Gb White",
+            "price": "5399",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Xiaomi Poco X3 6/64GB Grey",
+            "price": "5455",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung Galaxy M31 6Gb/128Gb Red",
+            "price": "5459",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung Galaxy M31 6Gb/128Gb Black",
+            "price": "5459",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Xiaomi Redmi Note 9 Pro 6Gb/128Gb Interstellar Grey",
+            "price": "5499",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Xiaomi Redmi Note 9 Pro 6Gb/128Gb Tropical Green",
+            "price": "5499",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Xiaomi Redmi Note 9 Pro 6Gb/128Gb Glacier White",
+            "price": "5499",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung SM-N920C Galaxy Note 5 32Gb Pink Gold",
+            "price": "5536",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Philips E109 Black",
+            "price": "561",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Philips E109 Red",
+            "price": "561",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Xiaomi Mi 10 Lite 6Gb/64Gb Gray",
+            "price": "5799",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Xiaomi Mi 10 Lite 6Gb/64Gb White",
+            "price": "5799",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Xiaomi Poco X3 6/128Gb Gray",
+            "price": "5925",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Allview M9 Join Black",
+            "price": "622",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung A515 Galaxy A51 6Gb/128Gb Silver",
+            "price": "6292",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Maxcom MM236 Black/Silver",
+            "price": "630",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung SM-A515 Galaxy A51 6Gb/128Gb Black",
+            "price": "6349",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung SM-A515 Galaxy A51 6Gb/128Gb Blue",
+            "price": "6349",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung SM-A515 Galaxy A51 6Gb/128Gb White",
+            "price": "6349",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung A51 6/128Gb Metallic Silver",
+            "price": "6349",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Xiaomi Mi 10 Lite 6Gb/128Gb Gray",
+            "price": "6373",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung SM-A730F Galaxy A8+ (2018) 4Gb/64Gb Duos Gold",
+            "price": "6458",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Xiaomi Mi Note 10 Lite 6Gb/64Gb Nebula Purple",
+            "price": "6479",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Maxcom MM426",
+            "price": "649",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Oppo Reno 4 Lite 8Gb/128Gb Black",
+            "price": "6499",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Nomi i282 Black/Grey",
+            "price": "679",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Huawei Nova 5T 6Gb/128Gb Blue",
+            "price": "6959",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Huawei Nova 5T 6Gb/128Gb Purple",
+            "price": "7053",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Philips E125 Blue",
+            "price": "715",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Philips E125 Black",
+            "price": "715",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung Galaxy M51 6/128Gb White",
+            "price": "7277",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Ergo F248 Defender Black",
+            "price": "729",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Apple iPhone 7 32Gb Rose Gold",
+            "price": "7309",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Apple iPhone 7 32Gb Gold",
+            "price": "7309",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung Galaxy M51 6/128Gb Black",
+            "price": "7383",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Philips E169 Red",
+            "price": "767",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Philips E169 Dark Grey",
+            "price": "767",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Nokia 210 Duos Black",
+            "price": "799",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung SM-A715 Galaxy A71 6Gb/128Gb Black",
+            "price": "7999",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung SM-A715 Galaxy A71 6Gb/128Gb Blue",
+            "price": "7999",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung SM-A715 Galaxy A71 6Gb/128Gb Silver",
+            "price": "7999",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Xiaomi Poco F2 Pro 6Gb/128Gb Electric Purple",
+            "price": "8973",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Nokia 5310 2020 Black/Red",
+            "price": "899",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung SM-N770 Galaxy Note10 Lite 6Gb/128Gb Aura Red",
+            "price": "8999",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "Samsung SM-N770 Galaxy Note10 Lite 6Gb/128Gb Aura Black",
+            "price": "9031",
+            "shop": "Pandashop"
+        },
+        {
+            "name": "OnePlus 6 6Gb/64Gb Mirror Black",
+            "price": "9386",
+            "shop": "Pandashop"
+        }
+    ]
+}
