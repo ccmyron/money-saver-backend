@@ -4,20 +4,23 @@ import os
 
 wordFilterList = [
     'Telefon', 'Mobil',
+    'Мобильный', 'телефон',
     'Black', 'Leather', 'Jet', 'Prism', 'Light', 'Onyx', 'Crush',
-    'White', 'Prism', 'Polar',
-    'Blue', 'Pacific', 'Crystal', 'Ice',
+    'White', 'Prism', 'Polar', 'Pearl',
+    'Blue', 'Pacific', 'Crystal', 'Ice', 'Ocean', 'Starscape',
+    'Peacock', 'Sky',
     'Red',
     'Green', 'Forest', 'Tropical', 'Verde',
     'Orange',
     'Pink', 'Cloud',
     'Purple', 'Nebula',
-    'Silver',
+    'Silver', 'Dark',
     'Yellow',
     'Gold',
     'Pacific Blue',
     'Rose Gold',
-    'Gray', 'Grey', 'Cosmic', 'Glacier', 'Space',
+    'Gray', 'Grey', 'Cosmic', 'Glacier', 'Space', 'Interstellar',
+    'Moonshadow', 'Mineral', 'Carbon',
     'Sorta Sage',
     'Brown',
     'Titan',
@@ -25,6 +28,7 @@ wordFilterList = [
     'Cloud', 'Navy',
     'Mint'
 ]
+
 
 def scrapeSmart():
 
@@ -83,6 +87,8 @@ def scrapeSmart():
             break
 
         currentPage+=1
+
+    return productInfo
 # end of the function scrapeSmart()
 
 
@@ -138,16 +144,25 @@ def scrapeDarwin():
             productTuple = (productName, productPrice, productLink, productImg)
             productInfo.append(productTuple)
             # f.write(productName + ',' + productPrice + ',' + productLink + ',' + productImg + '\n')
+
+
+    return productInfo
 # end of the function scrapeDarwin()
 
 def scrapeGsmShop():
 
+    # filename = 'productsgsmshop.csv'
+    # f = open(filename, 'w')
+    # headers = "Name, Price, Link, Img\n"
+    # f.write(headers)
+
     productInfo = []
     currentPage = 1
+    scriptActive = True
     
-    while True:
+    while scriptActive:
    
-        siteURL = 'https://www.gsmshop.md/category/view/mobile-phones/'+format(currentPage)+'html'
+        siteURL = 'https://www.gsmshop.md/category/view/mobile-phones/'+format(currentPage)+'.html'
 
         # grab the html document
         pageData = requests.get(siteURL)
@@ -158,15 +173,122 @@ def scrapeGsmShop():
         # grab product containers
         containerAttribute = {"class" : "phone_bls wide notranslate"}
         containers = pageSoup.findAll("div", containerAttribute)
-        print(containers[0])
 
-# end of the function scrapeGsmShop
+        for container in containers:
+            
+            # Check if there is need to continue parsing
+            stopSignal = {'class' : 'phone_bls_notaval'}
+            if container.find(attrs=stopSignal):
+                scriptActive = False
+                break
 
-#TODO complete scraper for orange
-def scrapeOrange():
-    pass
+            # grab the product name
+            productName = container.div.a.h2.text
+            productNameWords = productName.split()
+            resultWords = [word for word in productNameWords if word not in wordFilterList]
+            productName = ' '.join(resultWords).replace(',', '')
+
+            # find the price container, and parse the price
+            priceAttribute = {"class" : "phone_bls_price notranslate"}
+            priceContainer = container.find(attrs=priceAttribute)
+            productPrice = priceContainer.text.replace('MDL', '')
+            productPrice = productPrice.translate({ord(i): None for i in ' \n'})
+
+            # grab the product link
+            productLink = 'https://www.gsmshop.md' + container.div.a['href']
+
+            # grab the link to the photo
+            productImgContainerAttribute = {"class" : "phone_bls_img"}
+            productImgContainer = container.find(attrs=productImgContainerAttribute)
+            productImg = 'https://www.gsmshop.md' + productImgContainer.div.a.img['src']
+
+            # form a tuple from this info and dump it into the list
+            productTuple = (productName, productPrice, productLink, productImg)
+            productInfo.append(productTuple)
+
+            # f.write(productName + ',' + productPrice + ',' + productLink + ',' + productImg + '\n')
+
+        #print(f'{currentPage} pages scraped')
+        currentPage+=1
+    
+    return productInfo
+# end of the function scrapeGsmShop()
+
+def scrapePandashop():
+
+    # filename = 'productspandashop.csv'
+    # f = open(filename, 'w')
+    # headers = "Name, Price, Link, Img\n"
+    # f.write(headers)
+
+
+    productInfo = []
+    currentPage = 1
+    scriptActive = True
+
+    while scriptActive:
+
+        siteURL = 'https://www.pandashop.md/ru/catalog/electronics/telephones/mobile/?page_=page_'+format(currentPage)
+        
+        # grab the html document
+        pageData = requests.get(siteURL)
+
+        # parse the html document
+        pageSoup = soup(pageData.content, "html.parser")
+        
+        # grab containers
+        containerAttribute = {"class" : "card js-itemsList-item"}
+        containers = pageSoup.findAll(attrs=containerAttribute)
+
+        for container in containers:
+            
+            # grab the product name
+            productNameContainer = container.find('div', {'class' : 'card-inner'})
+            productName = productNameContainer.a.div.picture.img['alt']
+            productNameWords = productName.split()
+            resultWords = [word for word in productNameWords if word not in wordFilterList]
+            productName = ' '.join(resultWords).replace(',', '')
+
+            # find the price container, and parse the price
+            priceAttribute = {"class" : "card-footer"}
+            priceContainer = container.find(attrs=priceAttribute)
+            productPrice = priceContainer.div.div.span.text.replace('лей', '')
+            productPrice = productPrice.translate({ord(i): None for i in ' \n'})
+            if '%' in productPrice:
+                continue
+
+            # grab the product link
+            productLink = 'https://www.pandashop.md' + container.a['href']
+
+            # grab the link to the photo
+            productImg = container.a.div.picture.img['data-src']
+
+            # form a tuple from this info and dump it into the list
+            productTuple = (productName, productPrice, productLink, productImg)
+            productInfo.append(productTuple)
+
+            # f.write(productName + ',' + productPrice + ',' + productLink + ',' + productImg + '\n')
+
+        stopSignal = {'class' : 'btn btn-orange btn-showmore'}
+        if not pageSoup.find(attrs=stopSignal):
+            scriptActive = False
+
+        currentPage+=1
+    
+    return productInfo
+# end of the function scrapeOrange()    
 
 
 if __name__ == '__main__':
-    scrapeGsmShop()
+    
 
+    productInfoFinal = scrapeDarwin()
+    productInfoFinal += scrapeGsmShop()
+    productInfoFinal += scrapePandashop()
+    productInfoFinal += scrapeSmart()
+
+    with open('cum.txt', 'w') as f:
+        for entry in productInfoFinal:
+            for index in entry:
+                f.write(index + ',')
+            f.write('\n')
