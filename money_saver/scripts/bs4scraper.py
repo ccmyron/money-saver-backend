@@ -101,7 +101,7 @@ def scrapeDarwin():
 
 
     productInfo = []
-    currentPage = 1
+    # currentPage = 1
 
     for index in range(30):
 
@@ -267,7 +267,7 @@ def scrapePandashop():
             productTuple = (productName, productPrice, productLink, productImg)
             productInfo.append(productTuple)
 
-            # f.write(productName + ',' + productPrice + ',' + productLink + ',' + productImg + '\n')
+            #f.write(productName + ',' + productPrice + ',' + productLink + ',' + productImg + '\n')
 
         stopSignal = {'class' : 'btn btn-orange btn-showmore'}
         if not pageSoup.find(attrs=stopSignal):
@@ -278,17 +278,12 @@ def scrapePandashop():
     return productInfo
 # end of the function scrapeOrange()    
 
-
-if __name__ == '__main__':
-    
+def scrapeDriver():
 
     productInfoFinal = scrapeDarwin()
     productInfoFinal += scrapeGsmShop()
     productInfoFinal += scrapePandashop()
     productInfoFinal += scrapeSmart()
 
-    with open('cum.txt', 'w') as f:
-        for entry in productInfoFinal:
-            for index in entry:
-                f.write(index + ',')
-            f.write('\n')
+    return productInfoFinal    
+# end of the function scrapeDriver()

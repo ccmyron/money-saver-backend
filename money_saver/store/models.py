@@ -3,9 +3,10 @@ from django.conf import settings
 
 
 class Product(models.Model):
-    productShop = models.CharField(max_length=20)    # Shop, where we take the price
-    productName = models.CharField(max_length=30)    # Name of the product
-    productPrice = models.FloatField()               # Price of the product
+    productName = models.CharField(max_length=255)    # Name of the product
+    productPrice = models.CharField(max_length=7)     # Price of the product
+    productLink = models.CharField(max_length=255)    # Link to the product
+    productImg = models.CharField(max_length=255)     # Link to the product image
 
     def __str__(self):
         return self.productName
